@@ -19,7 +19,6 @@ driver = webdriver.Chrome(options=chrome_options)
 
 driver.implicitly_wait(10)
 
-URL = 'https://studio.youtube.com/video/jeIw5l0KtNs/comments/inbox'
 driver.get(url=userdata['url'])
 os.chmod("C:/ChromeCommentTEMP/", 0o777)
 comment_butten = "/html/body/ytcp-app/ytcp-entity-page/div/div/main/div/ytcp-animatable[8]/ytcp-activity-section/div/ytcp-comments-section/ytcp-animatable/div[1]/ytcp-comment-thread[{cnum}]/ytcp-comment/div[1]/div/div[1]/div[2]/div[2]/ytcp-comment-action-buttons/div/ytcp-comment-button/a/paper-button/yt-formatted-string"
