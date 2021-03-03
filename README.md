@@ -1,1 +1,2 @@
-# youtube-comment-macro
+# 유튜브 댓글 매크로
+셀레니움을 이용한 댓글 매크로
